@@ -1,0 +1,88 @@
+/* Estilos personalizados */
+@media (max-width: 576px) {
+    /* Estilos específicos para smartphones */
+}
+
+/* Reglas específicas para tabletas (768px o menos) */
+@media (max-width: 768px) {
+    /* Estilos específicos para tabletas */
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #1b0088;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Estilos para el título */
+h1 {
+    color: #1b0088; /* Cambia el color del texto */
+    font-size: 36px; /* Cambia el tamaño de fuente */
+    font-weight: bold; /* Cambia el grosor de fuente */
+}
+h3 {
+    color: #1b0088; /* Cambia el color del texto */
+    font-size: 25px; /* Cambia el tamaño de fuente */
+    font-weight: bold; /* Cambia el grosor de fuente */
+}
+h4 {
+    color: #1b0088; /* Cambia el color del texto */
+    font-size: 20px; /* Cambia el tamaño de fuente */
+    font-weight: bold; /* Cambia el grosor de fuente */
+}
+h5 {
+    color: #1b0088; /* Cambia el color del texto */
+    font-size: 15px; /* Cambia el tamaño de fuente */
+    font-weight: bold; /* Cambia el grosor de fuente */
+    text-decoration: underline;
+}
+
+/* Estilos para los enlaces del menú */
+.nav-link {
+    color: #1b0088; /* Cambia el color del texto */
+    font-weight: bold; /* Cambia el grosor de fuente */
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+}
+
+/* Estilos para el fondo del encabezado */
+.header {
+    background-color: #ffffff; /* Cambia el fondo del encabezado */
+}
+.hotel-img {
+    width: 400px; /* Establece el ancho al 100% para que todas tengan el mismo ancho */
+    height: 400px; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
+}
+.destinos-list {
+    list-style-type: none; /* Elimina los marcadores de lista */
+   
+   
+}
+.destino-item {
+    background-color: #f5f5f5; /* Color de fondo */
+    border: none; /* Borde */
+    padding: 10px; /* Espacio interno */
+    margin-bottom: 10px; /* Margen inferior */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 18px; /* Tamaño de fuente */
+    color: #1b0088; /* Color de texto */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón por encima */
+    transition: background-color 0.3s ease; /* Transición de color de fondo */
+    text-decoration: none;
+}
